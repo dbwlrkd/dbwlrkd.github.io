@@ -1,4 +1,6 @@
 ### 21 화ㅏ
+로렘 입숨 한글URL http://guny.kr/stuff/klorem/#/table-html
+URL경로(path): / 루트, /test/html5.html
 -html 레이아웃 구조제작합니다
 서버(응답하는프로그램=response) = 아파치서버, 톱캣서버
 클라이언트(요청하는프로그램=request) 웹브라우저
