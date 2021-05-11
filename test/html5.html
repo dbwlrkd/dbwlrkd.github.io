@@ -19,38 +19,38 @@
         border:1px dotted black
     }
     </style>
+    <style>
+        /* css: cascade계층형 stylw shhet 계층형 스타일 표 */
+        header > h1 ,footer > h1 { text-align: center;}
+        nav { display: block; height: 60px;}
+        nav > ul > li {
+            float:left; margin-right: 20px ;
+        }
+        div.contents { 
+            /* 내부의 컨텐츠 기준되는 외부에 요소에 관계형
+            포지션 추가 */
+            position: relative;
+            overflow: hidden;
+        }
+        section { width: 79%; display: inline-block
+            }
+        section > article { 
+            margin: 10px 20px;
+            border:1px solid skyblue }
+        aside {width: 20%; display: inline-block;
+            height:100%;
+            right:0px;
+            position:absolute;
+            }
+        
+            
+        </style>
 </head>
 <body>
     <!-- 테이블 태그제어: 셀병합
     table, tr(table row줄), td(table data칸)
     -->
 <!-- header, nav, section, artcle, aside, footer -->
-<style>
-/* css: cascade계층형 stylw shhet 계층형 스타일 표 */
-header > h1 ,footer > h1 { text-align: center;}
-nav { display: block; height: 60px;}
-nav > ul > li {
-    float:left; margin-right: 20px ;
-}
-div.contents { 
-    /* 내부의 컨텐츠 기준되는 외부에 요소에 관계형
-    포지션 추가 */
-    position: relative;
-    overflow: hidden;
-}
-section { width: 79%; display: inline-block
-    }
-section > article { 
-    margin: 10px 20px;
-    border:1px solid skyblue }
-aside {width: 20%; display: inline-block;
-    height:100%;
-    right:0px;
-    position:absolute;
-    }
-
-    
-</style>
 <header>
     <h1>hader</h1>
 </header>
@@ -63,21 +63,21 @@ aside {width: 20%; display: inline-block;
 </nav>
 <div class="contents">
 <section>
-    <h1>sction</h1>
+    <h2>sction</h2>
     <article>
-        <h1>article1</h1>
+        <h2>article1</h2>
     </article>
     <article>
-        <h1>article2</h1>
+        <h2>article2</h2>
     </article>
 </article>
 </section>
 <aside>
-    <h1>aside</h1>
+    <h2>aside</h2>
 </aside>
 </div>
 <footer>
-    <h1>footer</h1>
+    <h2>footer</h2>
 </footer>
 
     <table>
