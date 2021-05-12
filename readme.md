@@ -1,3 +1,11 @@
+#### 20210512 작업내역
+git clone 으로 프로젝트를 가져온 경우 이래 내용을 추가해야 합니다.
+git config --list 확인해서 user.name / usea.eamil 없으면 아래 추가.
+터미널에서 아래 2가지 실행
+git config --local user.name 영문이름
+git config --local user.eamil 영문이메일
+프로젝트를 1명이 제작하는 경우 없기때문에, 2명일때 소스수정한 사람 확인용 정보.
+
 #### 20210511 작업내역
 로렘 입숨 한글URL http://guny.kr/stuff/klorem/#/table-html
 URL경로(path): / 루트, /test/html5.html
@@ -12,13 +20,13 @@ HTML 버전:HTML5, HTML4.01(old)
 #### 20210510 작업내역
  개발PC(html) 와 깃 저장소와 연결시킵니다. 초기에 연결시 아래와 같은 문제점이 나올 수 있습니다.
  레포지토리(저장소) 초기화: git init 또는 VS code에서 레포지토리초기화 버튼 이후
- Git 에서 'user.name' 및 'user.email'을 구성하라고 뜹니다 (해결책 아래2줄)
- git config --local user.name dbwlrkd
- git config --local user.email dbwlrkd@test.com
+--- Git 에서 'user.name' 및 'user.email'을 구성하라고 뜹니다 (해결책 아래2줄)
+--- git config --local user.name dbwlrkd
+--- git config --local user.email dbwlrkd@test.com
  브런치(branch)가 없다며 구성하라고 뜹니다 (해결책 아래1줄)
- git branch -M master
+--- git branch -M master
  리모트(remote)가 없다며 구성하라고 뜹니다 (해결책 아래1줄)
- git git remote add origin https://github.com/사용자저장소/사용자저장소.git
+--- git git remote add origin https://github.com/사용자저장소/사용자저장소.git
  작업결과는 .git 폴더안의 cogfig 파일에 저장됩니다.
  이후 VS code 프로그램에서 아래처럼 작업하면 됩니다.
  업로드절차 1. 커밋(comit) 2. 푸시(push)
