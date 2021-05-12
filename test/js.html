@@ -25,6 +25,76 @@
             <tbody></tbody>
         </tr>
     </table>
-    
+    <div id="one">헬로 자바스크립트</div>
+    <script>
+        // 연산자: 비교 >, >=, <, <=, ==, ===
+        // 결과값 = return이 ture | False
+        // var 뜻은 변수를 선언하는 예약어(미리등록된 용어) 입니다.
+        // var var; //예약어를 변수로 사용하려다가 에러 납니다.
+        var x, y, z;
+        x = 5; y = 2, z = '5';
+        document.write(x > y);
+        document.write('<br>');
+        document.write(x >= y);
+        document.write('<br>');
+        document.write(x < y); 
+        document.write('<br>');
+        document.write(x <= y); 
+        document.write('<br>');
+        document.write(x == z); //숫자 5와 문자 5 같다는 내용 true
+        document.write('<br>');
+        document.write(x === z); //숫자 5와 문자 5기 틀리다는 내용
+        document.write('<hr>'); //수평선태그 horizontal
+        // 연산자: 사칙연산
+        var x, y;
+        x = 5; y = 2;
+        document.write(x+y);
+        document.write('<br>');
+        document.write(x-y);
+        document.write('<br>');
+        document.write(x*y); // 곱하기
+        document.write('<br>');
+        document.write(x**y); // 제곱하기
+        document.write('<br>');
+        document.write(x/y); // 나누기 실수값
+        document.write('<br>');
+        document.write(x%y); // 나머지 구하기
+        document.write('<hr>'); //수평선태그 horizontal
+        // documen 객체안에 변수 ,함수 , 배열 = 멤버변수에 .으로직접접근 가능
+        // 변수=variavle 요소(number수,string문자,object객체) 사용에 대해서
+        // 데이터를 사용하는 방법: 변수가 사용 
+        // 기본형: unmber(수:정수,실수=소수점), string(문자열), object, boolean(참true,거짓,false)
+        //사용자정의형: object(array배열형), function(함수형-매서드형)
+        var 변수1 = 100; //변수는 한글로 하면 안됨
+        document.write('변수타입은: ',typeof(변수1));
+        document.write(변수1+변수1);
+        document.write('<br>');// br : break return(중지하고 엔터)
+        변수1= '100'; //'문자', "문자열" = JAVA에서는 이렇게 구분 / JS는 구분없음
+        document.write('변수타입은: ', typeof(변수1));
+        document.write(변수1+변수1);
+        document.write('<br>');
+        var name = 'yujigang';
+        document.write(name[3]); //배열은 위치정보=인덱스값을 가지고 값을 제어
+        //인덱스index= 색인(책끝에 가나다 인데스와 같은역할) 
+        //모든언어의 배열의 인덱스 시작은 0부터 입니다. (단, 베이직언어는 1부터)
+
+        // 특징 : 입력된 값에 따라서 변수 형이 결정이 됩니다.
+
+        /* 여러줄 주석
+         자바스크립트부터는 프로그램이기 떄문에 디버그용어 사용(에러처리)
+         자바언어 부터 개발되었고, 자바스크립트와는 관계 없음.
+         자바스크립트는 인터프리터(1줄씩 위에서 아래로 해석)언어=파이썬
+         자바는 컴파일언어(클래스단위로 해석)
+        */
+        // 한줄 주석사용법, 개체(태그)선택방법, 디버그방법 20년전 부터 이용
+        document.getElementById('one').innerHTML = "헬로 <h1>javascript</h1>";
+        document.getElementById('one').innerText = "헬로 <h1>javascript</h1>";
+        var debug = document.getElementById('one');
+        // window.alert(debug.innerText); //디버그하는 방법 1
+        console.log(debug.innerText); //디버그하는방법2 json 빅데이터 확인
+        // 예전 자바스크립트를 배우는 이유는 IOT떄문에 배웁니다.
+        // IOT 임베디드프로그램에서는 jQuery를 사용못하는 경우가 있음
+        // 위 경우는 네이티브 자바스크립트(old JS) 사용하게 됩니다.
+    </script>
 </body>
 </html>
