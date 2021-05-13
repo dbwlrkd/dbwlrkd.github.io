@@ -4,6 +4,10 @@
 -RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
 - RestAPI서버주소(빅데이터): https://coroname.me/getdata
 #### 20210513
+픽사베이 이미지 3개: 로고1개, 슬라이드 이미지1, noimge 1받고, 경로 적어놓기
+로고: https://pixabay.com/ko/illustrations/%ED%8F%AC%EB%8F%84%EC%A3%BC-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%95%B4%EC%83%81-%EC%84%A0%EB%B0%95-1064142/
+슬라이드: https://pixabay.com/ko/illustrations/%EC%8B%9C%EA%B3%84-%EB%B9%88%ED%8B%B0%EC%A7%80-%EC%9D%8C%EC%95%85-%EB%82%98%EB%AC%B4-884616/
+no_img: https://pixabay.com/ko/vectors/%EC%A4%91%EB%8B%A8-%EC%82%AD%EC%A0%9C-%EC%97%86%EC%9D%8C-%EC%B7%A8%EC%86%8C-%EC%9E%A0%EA%B8%88-146096/
 작업폴더를 나누는 이유: 시청(관공서), 대학, 기업의 웹 프로그램(사이트)제작 할때, 1년간 무상 유지보수 이후 보통 2천, 리뉴얼 4천 비용이 책정
 -home 폴더 기존작업물, 리뉴얼 home에 덮어쓰는 방식이아니고,
 리뉴얼 할때 home2022 폴더에 작업을 하시게 됩니다.
