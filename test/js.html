@@ -21,11 +21,11 @@
         // jQuery CDN : Contents Delivery Network 인터넷으로 외부 프로그램을 갖다가 사용.
         // jQuery 의 기본형식 $시작 문서가 준비 되었을때 자동구현
         // 인터프리터의 단점 위 -> 아래 실행되는 순서를 신경쓰지 않아도 됨.->Jquery장점
-        // $('id선택자')/ㅊㅇㄴㅇㄴㅇ
+        // $('id선택자').click(콜백함수=무명함수=자동실행){구현내용}
         $(document).ready(function(){
             //html문서를 다 읽어 들인 후에 {블럭}내용이 실행됨
             $('#checkValue').click(function(){
-                alert($('#name').val);
+                alert($('#name').val());
                 $('#one').css('background-color','red');
             });
         });
@@ -53,8 +53,8 @@
         // 여러개의 element 선택
         // var names = document.getElementById('name');
         var names = $('#names');
-        var inputName = document.getElementsByTagName('name');
-        var twoClassName = document.getElementsByName('two');
+        var inputName = document.getElementsByName('name');
+        var twoClassName = document.getElementsByClassName('two');
         // 네이밍 방식: 카멜(낙타등)표기법 단어와 단어를 합칠때, 
         // 카멜표기법: 소문자로시작, 다른단어가 나올때는 대문자로 시작, 나머지는 다 소문자이다.
         console.log(twoClassName); //Two + Class + Name = twoClassName
