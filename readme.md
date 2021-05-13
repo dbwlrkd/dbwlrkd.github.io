@@ -3,6 +3,12 @@
 -와부 사이트에서 제공하는(RestAPI서버) json데이터를 html에서 불러와서 파싱.
 -RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
 - RestAPI서버주소(빅데이터): https://coroname.me/getdata
+
+#### 20210514
+사용자단 모바일 메인페이지 footer영역 CSS 입히기.
+과제물 제출 준비
+메인페이지 자바스크립트(jQuery)적용.-메뉴,슬라이드이미지처리, top상단이동
+
 #### 20210513
 픽사베이 이미지 3개: 로고1개, 슬라이드 이미지1, noimge 1받고, 경로 적어놓기
 로고: https://pixabay.com/ko/illustrations/%ED%8F%AC%EB%8F%84%EC%A3%BC-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%95%B4%EC%83%81-%EC%84%A0%EB%B0%95-1064142/
