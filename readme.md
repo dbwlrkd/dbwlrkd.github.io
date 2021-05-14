@@ -5,6 +5,7 @@
 - RestAPI서버주소(빅데이터): https://coroname.me/getdata
 
 #### 20210514
+CSS3, HTML5 : 검사기준입니다.
 사용자단 모바일 메인페이지 footer영역 CSS 입히기.
 과제물 제출 준비
 메인페이지 자바스크립트(jQuery)적용.-메뉴,슬라이드이미지처리, top상단이동

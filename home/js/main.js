@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $('.to_top a').smoothScroll() ;
+$('.to_top a').smoothScroll() ;
 });

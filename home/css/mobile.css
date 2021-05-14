@@ -108,7 +108,7 @@ header { /* 태그선택자 */
 	width: 100%;
 	background: #31343d;
 	margin-top: 36px;
-	/* display: none; */
+	display: none;
 }
 .closePop {
 	display: block;
@@ -196,79 +196,79 @@ header { /* 태그선택자 */
 }
 /* 슬라이드영역 */
 .main_rolling_pc {
-    display: block;
+	display: block;
 }
-.vlsualRoll {
-    position: relative;
-    width: 100%;
+.visualRoll {
+	position: relative;
+	width: 100%;
 }
 .viewImgList {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 100%;
 }
 ul.viewImgList li {
-    /* ul.클래스명: ul태그중 클래스명이 viewImgList영역 */
-    text-align: center;
-    height: 300px;
-    line-height: 550px;
-    background-size: cover; /* 배경이미지의 크기를 꽉 채우는 값 cover */
-    width: 100%;
+	/* ul.클래스명: ul태그중 클래스명이 viewImgList 영역 */
+	text-align: center;
+	height: 300px;
+	line-height: 550px;
+	background-size: cover;/* 배경 이미지의 크기를 꽉 채우는 값 cover */
+	width: 100%;
 }
 .roll_content a img {
-    display: none;
+	display: none;
 }
 li.imglist0 {
-    position: relative;
-    z-index: 50;
-    background: url(../img/slide1.png) no-repeat;
+	position: relative;
+	z-index: 50;
+	background: url(../img/slide1.png) no-repeat;
 }
 li.imglist1 {
-    position: absolute;
-    z-index: 10;
-    left: 0; top: 0;
-    background: url(../img/slide1.png) no-repeat;
+	position: absolute;
+	z-index: 10;
+	left:0; top:0;
+	background: url(../img/slide1.png) no-repeat;
 }
 li.imglist2 {
-    position: absolute;
-    z-index: 10;
-    left: 0; top: 0;
-    background: url(../img/slide1.png) no-repeat;
+	position: absolute;
+	z-index: 10;
+	left:0; top:0;
+	background: url(../img/slide1.png) no-repeat;
 }
 .roll_content {
-    position: static;
+	position: static;
 }
 .roll_content .roll_txtline {
-    position: absolute;
-    left: 0%;
-    bottom: 60px; /* roll_content하단에서 60px 위에 위치 */
-    width: 100%;
-    line-height: 1;
-    text-align: center;
-    font-size: 22px;
-    color: #fff;
-    letter-spacing: 2px;
+	position: absolute;
+	left:0;
+	bottom: 60px;/* roll_content하단에서 60px 위에 위치 */
+	width: 100%;
+	line-height: 1;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: 2px;
 }
 .rollbtnArea {
-    position: absolute; /* 위치를 기존위치에서 고정시켜놓겠다 */
-    width: 100%;
-    left: 0px;
-    bottom: 25px;
-    z-index: 200;
+	position: absolute;/* 위치를 기준위치에서 고정시켜놓겠다 */
+	width: 100%;
+	left: 0px;
+	bottom: 25px;
+	z-index: 200;
 }
 .rollingbtn {
-    width: 320px;
-    margin: 0 auto; /* 버튼영역에 5개 들어가고, 가운데 정렬 시킴 */
-    text-align: center;
+	width: 320px;
+	margin: 0 auto;/* 버튼영역에 5개 들어가고, 가운데 정렬 시킴 */
+	text-align: center;
 }
 .rollingbtn li.butt0 {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 .rollingbtn li {
-    display: inline-block;
-    margin-left: 5px;
+	display: inline-block;
+	margin-left: 5px;
 }
 .rollingbtn li a {
-    vertical-align: top; /* img하고 다른태그 사용시태그의 새로정렬 */
+	vertical-align: top;/* img하고 다른태그사용시 다른 태그의 세로 정렬 */
 }
 /* //슬라이드영역 */
 /* 갤러리최근게시물영역 */
@@ -330,10 +330,10 @@ li.imglist2 {
     font-weight: bold;
     font-size: 19px;
 }
-.bbs line.notice_recent {
+.bbs_line .notice_recent {
     padding-top: 10px;
 }
-.bbs_line.notice_recent li {
+.bbs_line .notice_recent li {
     padding: 8px 0px;
 }
 /* //공지사항최근게시물영역 */
@@ -391,7 +391,7 @@ footer {
 	width: 210px;
 	margin: 10px auto; /* 10px 상하 여백, auto 좌우 가운데정렬 */
 }
-.snslink li :first-child {
+.snslink li:first-child {
 	margin-left: 0px;
 }
 .snslink li {
@@ -425,7 +425,7 @@ footer {
 	display: block;
 	width: 45px;
 	height: 45px;
-	background: url(./img/ico_totop_mo.png) no-repeat center;
+	background: url(../img/ico_totop_mo.png) no-repeat center;
 	background-size: 45px;
 	text-indent: -9999px; /* 글자안보이게 */
 	overflow: hidden;
