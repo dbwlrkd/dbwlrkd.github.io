@@ -226,13 +226,13 @@ li.imglist1 {
 	position: absolute;
 	z-index: 10;
 	left:0; top:0;
-	background: url(../img/slide1.png) no-repeat;
+	background: url(../img/slide2.jpg) no-repeat;
 }
 li.imglist2 {
 	position: absolute;
 	z-index: 10;
 	left:0; top:0;
-	background: url(../img/slide1.png) no-repeat;
+	background: url(../img/slide3.jpg) no-repeat;
 }
 .roll_content {
 	position: static;
