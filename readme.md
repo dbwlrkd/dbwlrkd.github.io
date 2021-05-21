@@ -20,7 +20,7 @@ egov: 자바기반 -> JDK(java Delvelopment 자바개발환경) 설치확인
 VS code에서 만든 UI를 JSP로 변경 한 후 스프링웹프로젝트를 진행합니다
 
 #### 20210521
--반응형 모바일 게시판페이지(CRUD) CSS처리: Create(Update) - board_write.html
+-반응형 게시판페이지(CRUD) CSS처리: Create(Update) - board_write.html
 -반응형 서브페이지를(로그인,회원가입,마이페이지)
 이클립스 헬로월드 실습
 
