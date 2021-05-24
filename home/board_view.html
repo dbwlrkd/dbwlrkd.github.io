@@ -221,13 +221,11 @@ $(document).ready(function() {
 			 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script><script src=""></script>
 			 <script id="template" type="text/x-handlebars-template">
 			{{#each.}}
-             <div class="div_list_template" data-rno="{{rno}}">
+             <div class="div_template" data-rno="{{rno}}">
                <i class="fas fa-envelope bg-blue"></i>
                <div class="timeline-item">
                  <h3 class="timeline-header">{{replyer}}</h3>
-                 <div class="timeline-body">
-                  {{reply_text}}
-                 </div>
+                 <div class="timeline-body">{{reply_text}}</div>
                  <div class="timeline-footer">
                    <a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-reply">수정</a>
                  </div>
@@ -292,6 +290,7 @@ $(document).ready(function() {
 		  <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
 		  <button type="button" class="btn btn-primary">수정</button>
 		  <button type="button" class="btn btn-danger">삭제</button>
+		  <input type="hidden" id="rno" name="rno">
 		</div>
 	  </div>
 	  <!-- /.modal-content -->
@@ -323,12 +322,22 @@ var printReplyList = function(data, templateData, target) {
 					//위 result 데이터를 #template에 바인시키는(아래)
 					//함수의 (인자=아규먼트=매개변수=파라미터)
 					//(jesonData, 바인딩(파싱)위치, 화면출력위치);
-					printReplyList(result, $('#template'), $('.time-label'));
+					printReplyList(result, $('#template'), $('.time-label'))
 				},
 				error:function() {
 					alert('RestAPI서버가 작동하지 않습니다.');
 				}
 			});
+		  });
+	  });
+  </script>
+  <script>
+	  // 댓글리스트에서 수정 버튼클릭시 현재 선택한 값을 모달창에 보여주는 것을 구현
+	  $(document).ready(function(){
+		  $('.timeline').on('click', '.div_template', function(){
+			$('#rno').val($(this).attr('data-rno'));
+			$('#modal_reply_text').val($(this).find('.timeline-body').text());
+			$('.modal-title').html($(this).find('.timeline-header').text());
 		  });
 	  });
   </script>
