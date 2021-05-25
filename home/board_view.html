@@ -330,7 +330,7 @@ $(document).ready(function() {
 </div>
 <!-- /.modal -->
 <script>
-   //페이징처리 함수형 변수
+   //오리지날 페이징처리 함수형 변수
 var printPagingList = function(pageVO, target) {
    $(target).html('');
 //pageVO = 스프링에서 받은 json 데이터, pageVO.prev(이전데이터가 있다면 true), pageVO.next(다음데이터 있다면 true), pageVO=5페이지로 가정
@@ -353,7 +353,7 @@ var printPagingList = function(pageVO, target) {
       $(target).append(pagination);
 };
 
-//댓글리스트처리 함수형 변수(아래)
+//템플릿방식 댓글리스트처리 함수형 변수(아래)
 var printReplyList = function(data, templateData, target) {
 	var template = Handlebars.compile(templateData.html());//템플릿을 태그로 변환
 	var html = template(data);//파싱처리
