@@ -23,8 +23,14 @@
 - UI구현 ......위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 - 관리자단 AdminLTE적용- 스프링시간(회원관리CRUD 바로 jsp, 게시판생성관리CRUD 바로 jsp)
 
-#### 20210527(목) 작업예정
-- admin/board_list.html 부터 시작.
+#### 20210528(금) 작업예정
+- 관리자단 admin/board_wite.html, board_view.html(댓글ajax처리)
+- 대시보드 home.html (최근 회원가입정보, 최근게시물정보)
+- 이클립스로 작업한 html 내용을 -> resources 폴더(admon, home, root파일까지)로 배치
+- 스프링 작업의 시작
+
+#### 20210527(목) 작업
+- admin/board_list.html 작업ok.
 - 관리자단 AdminLTE적용- UI시간:(게시판CRUD-html, 대시보드-html)
 - 관리자단 기본 틀(템플릿): 공통 UI 부분 작업ok.
 - Ctr l+ k + 0 = 코드축소 (코드구조 확인) 
