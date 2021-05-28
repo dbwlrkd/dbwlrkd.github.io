@@ -23,9 +23,13 @@
 - UI구현 ......위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 
 #### 20210528(금) 작업예정
+- 데이터를 전송할때 사용 쿼리스트링QueryString의 시작은?키=value &키=value
+- 뒤로가기 허용하면, 게시물 테러가 가능합니다.()
+- 뒤로가기를 허용하지 않게 페이지를 이용하는 방식(js에서는 location.replace함수사용)
+- 뒤로가기를 허용하는 함수(js에서는 location_href = "" 사용)
 - 관리자단 admin/board_wite.html, board_view.html(댓글ajax처리)
 - 대시보드 home.html (최근 회원가입정보, 최근게시물정보)
-- 관리자단 AdminLTE적용- 스프링시간 |UI디자인 시간 선택후 아래 작업중진행예정
+- 관리자단 AdminLTE적용- 스프링시간 | UI디자인 시간 선택후 아래 작업중진행예정
     (회원관리CRUD, 게시판생성관리CRUD-html )
 - 이클립스로 작업한 html 내용을 -> resources 폴더(admon, home, root파일까지)로 배치
 - 스프링 작업의 시작
