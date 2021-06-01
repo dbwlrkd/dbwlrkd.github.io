@@ -23,9 +23,11 @@
 - UI구현 ......위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 
 #### 20210601(화)
-- ERD기준으로 게시판 UI 마무리합니다
+- ERD기준으로 게시판 UI 마무리합니다 board_write.html 부터 시작
+- 오늘부터는 VS code -> 이클립스 에서 작업합니다
 - 관리자단 AdminLTE적용 스프링 | UI디자인 시간 선택 후 아래 작업진행예정
 (회원관리CRUD, 게시판생성관리CRUD-html )
+- html을 분해(1개의 페이지를 2개로 분해,1 header.jsp(메뉴공동),2 footer.jsp(공동))
 - 이클립스로 작업한 html 내용을 -> resources 폴더(admon, home, root파일까지)로 배치
 - 스프링 작업의 시작
 
