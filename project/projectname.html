@@ -9,8 +9,9 @@
     <script src="script.js"></script>
 </head>
 <body>
-   <div class="display"></div>
+   <div class="display">
    <p id="output">0</p>
+   </div>
     <div class="first-row">
        <button id="r1-1" onclick="forclear()" style="width: 138px;">C</button>
        <button id="r1-3" onclick="perc()"> % </button>
@@ -35,8 +36,8 @@
        <button id="r4-4" value="+" onclick="fordisplay('+') " >+</button>
     </div>
     <div class="fifth-row">
-      <button id="r5-1" style="width: 138px;" >0</button>
-      <button id="r5-2">.</button>
+      <button id="r5-1" value="0" onclick="fordisplay('0')"style="width: 138px;" >0</button>
+      <button id="r5-2" value="." onclick="fordisplay('.')">.</button>
       <button id="r5-3" value="=" onclick="solve()" >=</button>
     </div>
 </body>
